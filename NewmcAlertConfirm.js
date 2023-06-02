@@ -16,9 +16,9 @@ JS Object OPTIONAL parameters to pass
     'eID'           : elementID,                        // integer by DOM element
     'checked'       : true|false,                       // boolean
     'icon'          : 'fa-exclamation-triangle',        // FontAwesome icon class (icon class and optional 1 transformation or 1 motion, fa fa-2x exist)   
-    'title'         : 'Attenzione!',                    // Header title (must be populated with ajax return message)
-    'body'          : 'Voucher non ancora prenotato.',  // Explanation (must be populated with ajax return message)
-    'action'        : 'Vuoi riscattarlo comunque?',     // Action to take (must be populated with ajax return message)
+    'title'         : 'Attenzione!',                    // Header title (could be populated with ajax return message)
+    'body'          : 'Voucher non ancora prenotato.',  // Explanation (could be populated with ajax return message)
+    'action'        : 'Vuoi riscattarlo comunque?',     // Action to take (could be populated with ajax return message)
     'href'          : URL                               // to load with window.location.href (usually the page httpUrl for redirect without POST/GET data)
     'hrefDelay'     : millisecond                       // for SetTimeout funciton of href redirect
     'returnFalse'   : false                             // return false    
