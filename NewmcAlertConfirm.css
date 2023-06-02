@@ -1,3 +1,6 @@
+/* remove alert-cancel button forl alert layout */
 button#alert-cancel {
     display:none;
 }
+
+/* CUSTOMIZE HERE YOUR OWN STYLES */
