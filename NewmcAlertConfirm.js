@@ -11,8 +11,8 @@ JS Object OPTIONAL parameters to pass
     'containerID'   : 'NewmcAlertConfirm',              // id | default (must refer to html placeholder)
     'dialog'        : 'modal',                          // string, variant 'alert'
     'type'          : 'warning',                        // string, variant: 'info', 'danger', 'success'    
-    'color'         : HEXVAL,                           // defaults #222222 ( oter values depends by type )
-    'bgcolor'       : HEXVAL,                           // default white ( oter values depends by type ),    
+    'color'         : HEXVAL,                           // defaults #222222 ( other values depends by type )
+    'bgcolor'       : HEXVAL,                           // default white ( other values depends by type ),    
     'eID'           : elementID,                        // integer by DOM element
     'checked'       : true|false,                       // boolean
     'icon'          : 'fa-exclamation-triangle',        // FontAwesome icon class (icon class and optional 1 transformation or 1 motion, fa fa-2x exist)   
