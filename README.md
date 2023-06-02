@@ -1,6 +1,7 @@
 # NewmcAlertConfirm
 
-Constructor plugin to create bootstrap modal structure for custom alert/confirn dialogs
+Constructor plugin to create bootstrap modal structure for custom alert/confirn dialogs, without html modal tags, classes, attributes and/or js triggers to write on each message.
+
 |||
 |:--|:--|
 |2022 11 15 |MASTER STABLE|
