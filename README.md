@@ -3,7 +3,7 @@
 Constructor plugin to create bootstrap modal structure for custom alert/confirn dialogs
 |||
 |:--|:--|
-|2022 11 15 |Work in progress|
+|2022 11 15 |MASTER STABLE|
 |2022 11 14 |BETA VERSION V2|
 |2022 11 13 |ALPHA VERSION V1|
 |||
