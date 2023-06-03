@@ -2,6 +2,8 @@
 
 Constructor plugin to create bootstrap modal structure for custom alert/confirn dialogs, without html modal tags, classes, attributes and/or js triggers to write on each message.
 
+It's also possible to declare multiple wrapper changing their ids and loading different modal for each id.
+
 |||
 |:--|:--|
 |2022 11 15 |MASTER STABLE|
