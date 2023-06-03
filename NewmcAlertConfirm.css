@@ -1,6 +1,17 @@
-/* remove alert-cancel button forl alert layout */
 button#alert-cancel {
     display:none;
 }
 
-/* CUSTOMIZE HERE YOUR OWN STYLES */
+/* NewmcAlertConfirmTimer for auto hiding modals */
+#NewmcAlertConfirmTimer .modal-content{
+    font-size: 80%;
+	position: absolute;
+    bottom:0px;
+    left:-10%px;
+	max-width: 300px;
+	border: none;
+	border-radius: .5rem;
+}
+#NewmcAlertConfirmTimer .modal-header, #NewmcAlertConfirmTimer .modal-footer{
+    display:none;
+}
