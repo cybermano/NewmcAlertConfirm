@@ -7,8 +7,6 @@ button#alert-cancel {
     font-size: 80%;
 	position: absolute;
     bottom:0px;
-    left:-10%px;
-	max-width: 300px;
 	border: none;
 	border-radius: .5rem;
 }
