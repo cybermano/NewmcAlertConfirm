@@ -2,28 +2,29 @@
 
 Constructor plugin to create bootstrap modal structure for custom alert/confirn dialogs, without html modal tags, classes, attributes and/or js triggers to write on each message.
 
-|Date|Version|Build|Notes|
-|:---|:--:|:--|:--|
-|20220603|V4|MASTER STABLE|Added timeOutHide method to auto hide modal after X milliseconds (useful for notification only popups like) |
-|20221115|V3|RELEASE CANDIDATE|Work in progress|
-|20221114|V2|BETA||
-|20221113|V1|ALPHA||
+|||||
+|:--|:--|:--|:--|
+|2022 06 03 | V4 |MASTER STABLE| Added timeOutHide method to auto hide modal after X milliseconds (useful for notification only popups like) |
+|2022 11 15 | V3 |RELEASE CANDIDATE| Work in progress|
+|2022 11 14 | V2 |BETA VERSION V2||
+|2022 11 13 | V1 |ALPHA VERSION V1||
+|||||
 
 **AUTHOR: NewMediaConsulting - Mauro Romano**
 
-Plugin to create bootstrap modal structure for custom alert/confirn dialogs. It uses JQuery and fontawesome icons.
+Plugin to create bootstrap modal structure for custom alert/confirn dialogs. It uses fontawesome icons.
 ![screenshot](https://github.com/cybermano/NewmcAlertConfirm/blob/main/code_example/Warning.jpg?raw=true)
 ![screenshot](https://github.com/cybermano/NewmcAlertConfirm/blob/main/code_example/Success.jpg?raw=true)
 
 ## DECLARATION AND USAGE
 
-#### IN PAGE, LOAD ON TOP
+#### IN PAGE LOAD ON TOP
 
 CSS STYLE FOR CUSTOMIZATION
 
 ```<link rel="stylesheet" href="/your_path_to_file/NewmcAlertConfirm.css">```
 
-#### IN PAGE, LOAD AT BOTTOM
+#### IN PAGE LOAD AT BOTTOM
 
 HTML PLACEHOLDER
 (if "id" will be different from "NewmcAlertConfirm" it must be declared into object key:value pair as containerID:'YOUR_PLACEHOLDER_ID' )
@@ -38,9 +39,9 @@ TO USE AUTO HIDE NOTIFICATIONS, ADD THIS PLACEHOLDER AND USE PROPER ID AND CSS O
 **If 'timeOtoHide' method is not setted, clicking outside the modal will hide it (but will not perfom any setted triggers)**
 
 
-#### IN PAGE, AT SCRIPT BEGIN
+#### AT SCRIPT BEGIN
 
-LOAD CONSTRUCTOR (THIS JS CONSTRUCTOR PLUGIN FILE)
+LOAD CONSTRUCTOR (THIS FILE)
 
 ```<script src="/your_path_to_file/NewmcAlertConfirm.js"></script>```
 
