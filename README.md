@@ -11,7 +11,7 @@ Constructor plugin to create bootstrap modal structure for custom alert/confirn 
 
 **AUTHOR: NewMediaConsulting - Mauro Romano**
 
-Plugin to create bootstrap modal structure for custom alert/confirn dialogs. It uses fontawesome icons.
+Plugin to create bootstrap modal structure for custom alert/confirn dialogs. It uses JQuery and fontawesome icons.
 ![screenshot](https://github.com/cybermano/NewmcAlertConfirm/blob/main/code_example/Warning.jpg?raw=true)
 ![screenshot](https://github.com/cybermano/NewmcAlertConfirm/blob/main/code_example/Success.jpg?raw=true)
 
