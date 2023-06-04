@@ -52,11 +52,7 @@ class NewmcAlertConfirm {
 
         // function loaded on constructor call in page script
         this.init = function (options) {
-            var existClass = document.getElementById(options.containerID).className;
-            document.getElementById(options.containerID).className = "newmc-custom-dialog-wrapper";
-            if (existClass != '') {
-                document.getElementById(options.containerID).className += " " + existClass;
-            }
+            document.getElementById(options.containerID).classList.add("newmc-custom-dialog-wrapper");
             this.prepareControls(options);
 
             // Load and show the dialog
