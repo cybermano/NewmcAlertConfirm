@@ -214,12 +214,11 @@ class NewmcAlertConfirm {
             modalFooter.appendChild(modalButtonOk);
 			
             // REMOVE PREVIOUS (HIDED) MODALS (AVOID destroy() METHODS)
-            $('div#' + options.containerID + ' div[id*=custom-').each(function(){
-                if (!$(this).hasClass('show')){
-                    $(this).remove();
-                }
-            });
-
+            var eaches = document.getElementById(options.containerID).querySelectorAll('div[id*=custom-');
+            console.log(eaches)
+            for (var i = 0; i < eaches.length; ++i) {
+                eaches[i].remove();
+            }
             // Append wrapper in HTML placeholder
             document.getElementById(options.containerID).append(modalFade);
 
