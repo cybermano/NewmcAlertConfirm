@@ -35,6 +35,7 @@ class NewmcAlertConfirm {
             'title'         : 'NewMC Custom Title',             // Could be populated with an ajax return text
             'body'          : 'NewMC Custom Body.',             // Could be populated with an ajax return text
             'action'        : 'Perform NewMC Custom Action?',   // Could be populated with an ajax return text
+            'backDrop'      : true,                             // allow backdrop fade behind modal (variant: 'false' = remove backdrop)
             'href'          : null,                             // URL for window.reload.href (redirect)
             'hrefDelay'     : 0,                                // milliseconds
             'timeOutHide'   : null,                             // milliseconds
@@ -213,14 +214,24 @@ class NewmcAlertConfirm {
             modalFooter.appendChild(modalButtonCancel);
             modalFooter.appendChild(modalButtonOk);
 			
-            // REMOVE PREVIOUS MODALS (AVOID destroy() METHODS)
+            // REMOVE PREVIOUS (HIDED) MODALS (AVOID destroy() METHODS)
             var eaches = document.getElementById(options.containerID).querySelectorAll('div[id*=custom-');
-            console.log(eaches)
             for (var i = 0; i < eaches.length; ++i) {
                 eaches[i].remove();
             }
             // Append wrapper in HTML placeholder
             document.getElementById(options.containerID).append(modalFade);
+            
+            // remove backdrop 
+            if(options.backDrop == false){
+                document.addEventListener('click', function(e){
+                    var target = document.querySelector('div.modal-backdrop.fade.show');
+                    if(target){
+                        target.remove();
+                    }
+                });
+            }
+
 
         };
 
