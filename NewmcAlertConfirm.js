@@ -213,7 +213,7 @@ class NewmcAlertConfirm {
             modalFooter.appendChild(modalButtonCancel);
             modalFooter.appendChild(modalButtonOk);
 			
-            // REMOVE PREVIOUS (HIDED) MODALS (AVOID destroy() METHODS)
+            // REMOVE PREVIOUS MODALS (AVOID destroy() METHODS)
             var eaches = document.getElementById(options.containerID).querySelectorAll('div[id*=custom-');
             console.log(eaches)
             for (var i = 0; i < eaches.length; ++i) {
