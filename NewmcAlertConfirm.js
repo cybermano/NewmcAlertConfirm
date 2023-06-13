@@ -49,7 +49,7 @@ class NewmcAlertConfirm {
 
         // console.info(options);
 
-        let _this = this;
+        // let _this = this;
 
         // function loaded on constructor call in page script
         this.init = function (options) {
